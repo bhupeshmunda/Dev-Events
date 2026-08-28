@@ -1,6 +1,6 @@
 import EventCard from "@/components/EventCard"
 import ExploreButton from "@/components/ExploreButton"
-import {events} from "@/lib/constants.ts"
+import {events} from "@/lib/constants"
 
 function Page() {
 
@@ -11,7 +11,7 @@ function Page() {
 
       <ExploreButton/>
 
-      <div className="mt-20 space-y-7">
+      <div id="events" className="mt-20 space-y-7">
         <h3>Featured Events</h3>
 
         <ul className="events">
